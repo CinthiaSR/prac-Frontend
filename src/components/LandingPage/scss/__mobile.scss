@@ -1,0 +1,32 @@
+
+@media (min-width: 542px) and (max-width:768px){ 
+    
+    .principal-landing{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(148, 229, 229);
+        .col-6{
+            h1{
+            font-size: 18px;
+        }
+        span,p{
+            font-size: 10px;
+        }
+        img{
+            margin-top: 100px;
+        }
+        }
+        button{
+            font-size: 10px;
+            width: 200px; 
+            display: flex;
+            margin: 10px;
+            justify-content: space-around;
+        }
+    }
+    
+
+
+}

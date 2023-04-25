@@ -1,0 +1,36 @@
+// Medium devices (tablets, 768px and up)
+
+@media (min-width: 768px) and (max-width:920px){ 
+    
+    .principal-landing{
+        h1{
+            font-size: 18px;
+        }
+        span,p{
+            font-size: 10px;
+        }
+        img{
+            margin-top: 100px;
+        }
+        display: flex;
+        background-color: aqua;
+
+        .col-6{
+            h1{
+            font-size: 18px;
+        }}
+        button{
+            font-size: 10px;
+            width: 200px; 
+            display: flex;
+            margin: 10px;
+            justify-content: space-around;
+        }
+    }
+    // .buttons-actions{
+    //     font-size: 10px;
+    //     display: flex;
+    //     justify-content: space-around;
+    // }
+
+}

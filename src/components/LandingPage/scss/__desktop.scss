@@ -1,0 +1,35 @@
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px)  and (max-width:1400px) {
+    .principal-landing{
+        button{
+            font-size: 10px;
+            width: 200px; 
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 10px;
+            justify-content: space-around;
+        }
+    }
+    .cards-functional{
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+ }
+
+
+
+
+
+
+
+
+
+// .cards-functional{
+//     margin: 5px;
+//     display: flex;
+//     justify-content: center;
+//     align-items:center;
+// }
